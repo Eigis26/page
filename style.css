@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+body {
+    background-image: url(img/bg.jpg);
+    height:100vh;
+    background-color: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.nav  {
+    border:none;
+    background-color: rgba(0,0,0,0.5) ;
+    border-radius: 10px;
+    float:right;
+    width: auto;
+    margin-right: 5%;
+    margin-top: 13px;
+}
+.nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+.nav ul li {
+    
+    text-decoration: none;
+    padding: 10px;
+    position: relative;
+    display: inline-block;
+    font-weight: 700;
+}
+.nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    transition: 0.7s;
+    padding: 10px;
+    
+}
+.nav ul li a:hover {
+background-color: rgba(0,0,0,0.8);
+border-radius: 20px;
+}
+.banner img{
+    float: left;
+    width: 10%;
+    margin-left: 20px;
+    border: 1px solid;
+}
+.formos {
+    position: relative;
+    float:left;
+    margin-left: 7%;
+    border-style: none;
+    border-radius: 20px;
+    padding:12px;
+    margin-top: 13px;
+}
+.formos input[type=email]{
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 20px;
+    padding: 8px;
+    border-style: none;
+    outline: none;
+    color: aliceblue;
+    font-weight: 700;
+}
+.formos input[type=password]{
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 20px;
+    padding: 8px;
+    border-style: none;
+    outline: none;
+    color: aliceblue;
+    font-weight: 700;
+}
+.formos input[type=submit]{
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 20px;
+    padding: 8px;
+    border-style: none;
+    color:aliceblue;
+    font-weight: 700;
+    transition: 0.7s;
+}
+.formos input[type=submit]:hover{
+background-color: rgba(0,0,0,0.8);
+}
+::-webkit-input-placeholder {
+    color: aliceblue;
+}
+.sect {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 17%;
+}
+.pasiulymai {
+    margin-top: 5%;
+    display: flex;
+    justify-content:space-between;
+}
+.pasins {
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 10px;
+    margin: 15px;
+    padding-bottom: 5%;
+}
+.pasins h3 {
+    color:aliceblue;
+    padding: 15px;
+    font-size: 30px;
+}
+.pasins p {
+    color: aliceblue;
+    padding: 2px;
+    padding-bottom: 40px;
+}
+.pasins img {
+    width:100%;
+    height:50%;
+    border-radius: 10px;
+}
+.pasins a {
+    text-decoration: none;
+    background-color: rgba(255, 6, 6, 0.938);
+    border-radius: 10px;
+    padding: 5px;
+    color: aliceblue;
+    font-weight: 900;
+    transition: 0.7s;
+    font-size: 30px;
+}
+.pasins a:hover {
+    background-color: rgba(255, 6, 6, 0.7);
+}
+.pastxt {
+    background-color:rgba(0,0,0,0.5) ;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px;
+    font-size: 30px;
+}
+.pastxt h2 {
+    color: aliceblue;
+}
+
+/* atskyri psl */
+
+.txt h3 {
+    font-weight: 900;
+    font-size: 60px;
+    color:white;
+    padding-top: 300px;
+    text-align: center;
+}
